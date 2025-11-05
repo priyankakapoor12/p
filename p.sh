@@ -1,26 +1,6 @@
-#!/bn/bash
-# Set correct username and password
-CORRECT_USER="Priyanka"
-CORRECT_PASS="Devops"
+#!/bin/bash
+PERSON1="$1"
+PERSON2="$2"
 
-echo "Enter Username:"
-read USERNAME
-
-echo -n "Enter Password: "
-read -s PASSWORD
-echo
-
-# Username Check
-if [[ "$USERNAME" != "$CORRECT_USER" ]]; then
-    echo "❌ Incorrect Username!"
-    exit 1
-fi
-
-# Password Check
-if [[ "$PASSWORD" != "$CORRECT_PASS" ]]; then
-    echo "❌ Incorrect Password!"
-    exit 1
-fi
-
-echo "✅ Login Successful!"
-echo "Welcome, $USERNAME!"
+echo "$PERSON1: How are you $PERSON2?"
+echo "$PERSON2: I am good $PERSON2."
