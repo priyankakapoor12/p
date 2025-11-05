@@ -1,6 +1,11 @@
 #!/bin/bash
-PERSON1="Priyanka"
-PERSON2="Priya"
+echo "Please enter you username: "
+read USERNAME
+echo "username entered = $USERNAME"
 
-echo "$PERSON1: How are you $PERSON2?"
-echo "$PERSON2: I am good $PERSON1."
+echo "Please enter you Passwors: "
+echo PASSWORD
+echo "Password entered = $PASSWORD"
+
+
+
