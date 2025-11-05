@@ -1,6 +1,5 @@
 #!/bin/bash
-PERSON1="$1"
-PERSON2="$2"
+TODAYSDATE="$(date)"
 
-echo "$PERSON1: How are you $PERSON2?"
-echo "$PERSON2: I am good $PERSON2."
+echo "Today's date is $TODAYSDATE"
+
