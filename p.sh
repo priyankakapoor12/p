@@ -1,14 +1,10 @@
 #!/bin/bash
-NUMBER1="$1"
-NUMBER2="$2"
-TODAYSDATE="$(date)"
+MOVIES=("Pushpa" "Dhoni" "Sachin")
+echo "First Movie = ${MOVIES[0]}"
+echo "Second Movie = ${MOVIES[1]}"
+echo "Third Movie = ${MOVIES[2]}"
+echo "All Movies = ${MOVIES[@]}"
 
-SUM=$((NUMBER1+NUMBER2))
-echo "SUM of $NUMBER1 and $NUMBER2 is = $SUM"
-
-SUBTRACTION=$((NUMBER1-NUMBER2))
-echo "Subtraction of $NUMBER1 and $NUMBER2 is = $SUBTRACTION"
-echo "Today's date is $TODAYSDATE"
 
 
 
